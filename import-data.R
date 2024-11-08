@@ -16,20 +16,5 @@ test_data <- map_df(test_files, read.csv)
 head(train_data)
 head(test_data)
 
-
-## Verifying the combined data
-# check the structure of the data
-str(train_data) 
-str(test_data)
-
-# get a summary of the data
-summary(train_data)
-summary(test_data)
-
-# check the dimensions
-dim(train_data)
-dim(test_data)
-
-# Checking the missing values
-sum(is.na(train_data))
-sum(is.na(test_data))
+write.csv(test_data, file = "rdas/test_data.csv")
+write.csv(train_data, file = "rdas/train_data.csv")

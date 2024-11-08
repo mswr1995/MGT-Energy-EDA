@@ -2,13 +2,16 @@
 
 This project aims to predict the **electrical power output** of a micro gas turbine using various machine learning techniques, including regression models and deep learning architectures (RNNs). The goal is to explore different approaches and optimize model performance to minimize the RMSE (Root Mean Squared Error). The dataset consists of time series data with input voltage and electrical power measurements.
 
+## Related Research Paper
+Bielski, P. & Kottonau, D. (2024). Micro Gas Turbine Electrical Energy Prediction [Dataset].
+UCI Machine Learning Repository. https://doi.org/10.24432/C58S4T.
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Overview](#data-overview)
 - [Exploratory Data Analysis & Regression](#exploratory-data-analysis--regression)
 - [Deep Learning Models](#deep-learning-models)
 - [Installation & Setup](#installation--setup)
-- [Related Research Paper](#related-research-paper)
 
 ## Project Overview
 The project uses time-series data to predict electrical energy output based on input voltage. Two approaches are used:
@@ -58,7 +61,3 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/mswr1995/MGT-Energy-EDA.git
 cd MGT-Energy-EDA
-
-## Related Research Paper
-Bielski, P. & Kottonau, D. (2024). Micro Gas Turbine Electrical Energy Prediction [Dataset].
-UCI Machine Learning Repository. https://doi.org/10.24432/C58S4T.
